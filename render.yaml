@@ -6,6 +6,6 @@ services:
       url: docker.io/bluenviron/mediamtx:latest
     envVars:
       - key: PORT
-        value: 8889
+        value: "8889"
       - key: MTX_WEBRTCADDRESS
-        value: :8889
+        value: ":8889"
